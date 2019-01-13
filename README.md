@@ -2,6 +2,6 @@
 
 Welcome to the GitHub repository for the COMSM0010 Cloud Computing Submission.
 
-Thank You
+Thank You,
 
 Bradley Miles and Spencer Warren
