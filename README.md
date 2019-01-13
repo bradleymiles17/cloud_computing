@@ -1,1 +1,6 @@
-"# COMSM0010: Birdception" 
+# COMSM0010: Birdception
+
+Welcome to the GitHub repository for the COMSM0010 Cloud Computing Submission.
+
+Thank You
+Bradley Miles and Spencer Warren
