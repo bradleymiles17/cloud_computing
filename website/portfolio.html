@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Birdception</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Serverless web application example">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/message.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.png">
+    </header>
+
+    <input id="signOut" type="submit" value="Sign Out">
+
+    <section class="form-wrap">
+        <h1>Upload</h1>
+
+        <form id="classifyForm" enctype="multipart/form-data" method="post">
+            <input id="file" type="file" placeholder="jpg" required>
+            <input type="submit" value="Classify">
+        </form>
+
+    </section>
+
+    <section class="form-wrap">
+        <h1>Portfolio</h1>
+
+        <div id="photos" class="photos">
+            <!--<div class="column">-->
+                <!--<img src="images/wr-home-birds.jpg" alt="Birds">-->
+                <!--<div class="metadata">-->
+                    <!--<div class="breed">-->
+                        <!--<p>Robin</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        </div>
+
+    </section>
+
+
+    <script src="js/vendor/jquery-3.1.0.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/aws-cognito-sdk.min.js"></script>
+    <script src="js/vendor/amazon-cognito-identity.min.js"></script>
+    <script src="https://js.arcgis.com/4.3/"></script>
+    <script src="js/config.js"></script>
+    <script src="js/cognito-auth.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+
+</html>

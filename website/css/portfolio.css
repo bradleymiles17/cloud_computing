@@ -1,0 +1,41 @@
+html, body, #main, #map {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 1%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .column {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.column img {
+    width: 100%;
+}
+
+.column p {
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+}
